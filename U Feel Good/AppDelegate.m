@@ -64,8 +64,10 @@
     
     [self.locationMgr startUpdatingLocation];
     NSLog(@"Git called mathode");
+     NSLog(@"Background");
     return YES;
 }
+
 
 - (BOOL)application:(UIApplication *)application
             openURL:(NSURL *)url
