@@ -26,6 +26,7 @@
     app = (AppDelegate *)[[UIApplication sharedApplication] delegate];
     self.txt_userName.attributedPlaceholder = [[NSAttributedString alloc] initWithString:@"Username" attributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]}];
     self.txt_password.attributedPlaceholder = [[NSAttributedString alloc] initWithString:@"Password" attributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]}];
+    NSLog(@"hello mathode");
     
     // Do any additional setup after loading the view, typically from a nib.
 }
