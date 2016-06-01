@@ -63,7 +63,7 @@
     }
     
     [self.locationMgr startUpdatingLocation];
-
+    NSLog(@"Git called mathode");
     return YES;
 }
 
