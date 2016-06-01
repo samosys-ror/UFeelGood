@@ -64,7 +64,7 @@
     
     [self.locationMgr startUpdatingLocation];
     NSLog(@"Git called mathode");
-     NSLog(@"Gaurang Baba");
+     NSLog(@"Gaurang");
     return YES;
 }
 
